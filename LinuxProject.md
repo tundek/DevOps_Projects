@@ -67,8 +67,99 @@ cat filename1.txt filename2.txt > filename3.txt
 #### 6. cp Command:
 >cp command is used to copy a file or folder from one location to another, keeping the original copy
 
-cp sqlite_commands.sh /home/ubuntu/unixcommands
+Example snippet: cp sample DevOps/  >> Makes a copy of the sample file from the current directory to DevOps directory
 
-cp filename1.txt filename2.txt filename3.txt /home/username/Documents
+We can also copy multiple files from source to destination
+Code sample: cp filename1.txt filename2.txt filename3.txt /home/username/Documents
 
+To copy an entire directory use the flag -R along side the cp command.
+
+```
+cp -R /home/username/Documents /home/username/Documents_backup
+```
+
+#### `Command Result`
+<img width="705" alt="Screenshot 2023-08-24 at 08 01 32" src="https://github.com/tundek/DevOps_Projects/assets/15998669/4bbe9d77-e7b5-478a-a87f-bd116e78fe2c">
+
+#### 7. mv Command:
+>cp command is used to move a file or directory from one location to another, WIthout keeping the original copy, from the name move.
+>Additionally it can also be used to rename files/directories
+
+```
+mv sample.txt new_file
+```
+#### `Command Result`
+<img width="698" alt="Screenshot 2023-08-24 at 08 46 15" src="https://github.com/tundek/DevOps_Projects/assets/15998669/0924f9da-b194-447b-9f19-fabb007520ad">
+
+<img width="770" alt="Screenshot 2023-08-24 at 08 42 36" src="https://github.com/tundek/DevOps_Projects/assets/15998669/99e5b1fb-57c9-4b83-b2ad-c6526b33558b">
+
+#### `Command Result` Used to rename file 
+<img width="723" alt="Screenshot 2023-08-24 at 08 29 59" src="https://github.com/tundek/DevOps_Projects/assets/15998669/696c48a3-e892-42e0-b61c-8273730f41e1">
+
+
+#### 8. mkdir Command:
+>This command is used to create a new directory.
+
+
+mkdir new_folder
+
+mkdir folder/sub_folder
+
+mkdir Music/Songs (This creates a directory Songs inside of directory Music)
+
+#### `Command Result`
+
+<img width="730" alt="Screenshot 2023-08-24 at 08 48 59" src="https://github.com/tundek/DevOps_Projects/assets/15998669/928048d1-535b-44d8-803f-4b38adb37281">
+
+
+#### 9. rmdir Command:
+>This command is used to permanently delete an empty subdirectory.
+
+ ```
+  rmdir new_foler/sub_folder
+```
+
+<img width="779" alt="Screenshot 2023-08-24 at 09 04 05" src="https://github.com/tundek/DevOps_Projects/assets/15998669/f0c27d55-aef6-4434-bc5b-41250f306573">
+
+>The above command deletes(removes) the sub_folder
+
+>If the command is used with a flag -p it removes both the new_folder and it's subfolder
+
+```
+  rmdir -p new_foler/sub_folder
+```
+
+<img width="876" alt="Screenshot 2023-08-24 at 09 13 52" src="https://github.com/tundek/DevOps_Projects/assets/15998669/393fbf6c-191d-4683-a8ac-2d88733974dc">
+
+
+#### 10. rm Command:
+>This command is used to delete files within a directory
+
+Syntax: rm filename.  We can also combine with the flag, -R to delete the files and folder recursively. (Removes all files and directories)
+
+To remove multiple files, 
+
+rm filename filename2 filename3
+
+<img width="632" alt="Screenshot 2023-08-24 at 09 23 41" src="https://github.com/tundek/DevOps_Projects/assets/15998669/be3bf355-182b-455e-8c1b-c5a0915fcd38">
+
+
+#### 11. touch Command:
+>This command is used to create an empty file
+
+Example touch new_file
+
+<img width="622" alt="Screenshot 2023-08-24 at 09 28 53" src="https://github.com/tundek/DevOps_Projects/assets/15998669/f06dda8a-3605-42db-b83c-ef14462c591d">
+
+
+#### 12. locate Command:
+>This command is used to find files
+
+Example locate -i new_file
+
+
+#### 13. find Command:
+>This command is similar to the locate cmd  to find files
+
+Syntax: find [option] [path] [expression]
 
