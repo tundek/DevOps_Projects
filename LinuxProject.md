@@ -163,3 +163,133 @@ Example locate -i new_file
 
 Syntax: find [option] [path] [expression]
 
+
+#### 14. grep Command:
+>This command is used to find a keyword in a file. It searches through all the text in a specific file.
+>
+Syntax: grep search_word sample.txt (Searches the word 'search_word' in the file sample.txt
+
+#### `Command Result`
+
+<img width="666" alt="Screenshot 2023-08-25 at 07 44 56" src="https://github.com/tundek/DevOps_Projects/assets/15998669/b20a7c3b-0efb-4fc0-8ace-6beabf2781ea">
+
+#### 15. df Command:
+> We can use the df command to report the system disk space usage
+Syntax:
+```
+   df [options] [file]
+```
+Use the -h flag for human readable format
+
+### `Command Result`
+<img width="1280" alt="Screenshot 2023-08-25 at 07 54 13" src="https://github.com/tundek/DevOps_Projects/assets/15998669/7ad7920a-1cc1-48c6-a4e3-16c286e68c66">
+
+
+#### 16. df Command:
+> We can use the df command to check how much space a file or directory takes up
+
+> Syntax: du [file_name]/[directory_name]
+
+#### `Output`
+
+<img width="521" alt="Screenshot 2023-08-25 at 08 03 53" src="https://github.com/tundek/DevOps_Projects/assets/15998669/6d99c4f7-b0b1-4a18-b37c-c67709d84b6e">
+
+
+#### 17. head Command:
+> The head command is used to display the first 10 lines of a text file/document
+> Syntax: head [file_name]
+
+
+#### 18. tail Command:
+> The tail command is used to display the last 10 lines of a text file/document
+> Syntax: tail [file_name]
+
+
+#### 19. diff Command:
+> The diff command (different) is used to compare the contents of two files and displays the part that do not match.
+> Syntax: diff [option] [file_name1] [file_name2]
+
+#### `Output`
+
+<img width="819" alt="Screenshot 2023-08-25 at 08 17 49" src="https://github.com/tundek/DevOps_Projects/assets/15998669/76dba3c0-2a8a-4e3e-9b08-26089012619a">
+
+#### 20. tar Command:
+> The tar command archives multiple files into TAR file.
+> Syntax: tar [options] [archive_file] [file or directory to be achived]
+
+
+# File Permissions and Ownership
+
+#### 21. chmod Command:
+> The chmos command is a commom command used to modify a file or directory's read, write and execute permissions.
+Three user classes exists in Linux
+> Owner
+> group members
+> others
+>
+
+```
+  Syntax: chmod [options] [permission] [file_name] 
+```
+
+#### `Output`
+
+<img width="752" alt="Screenshot 2023-08-25 at 08 42 22" src="https://github.com/tundek/DevOps_Projects/assets/15998669/de3aa6fa-649f-4071-9ebd-a06d75912ff1">
+
+#### 22. chown Command:
+> The chmos command is used to change the ownership of a file/directory or symbolic link to a specified username.
+Three user classes exists in Linux
+> Syntax: chown [option] owner[:group] file(s)
+```
+chown linuxuser2 filename.txt
+```
+
+#### 23. Jobs Command:
+> A job is process started by the shell. The job command will display all the running processes and their status
+
+> Syntaxt jobs [options] jobID
+
+#### 24. kill Command:
+> The kill command is used to terminate an unresponsive process manually.
+> Syntax kill [signal_option] pid
+>
+> Where PID is the proces ID used to reference a particular process
+
+#### 25. ping Command:
+> The ping command is used to trouble and see if a server is reachable or not
+>
+> Syntaxt: ping [option] [hostname_or_IP_address]
+
+
+#### 26. wget Command:
+> The wget command lets you download files from the internet.
+
+> Syntax: wget [option] [url]
+
+#### 27. uname Command:
+> The uname command tells you details of your Linux system and harware
+>
+> Syntax: uname [option] (uname -a)
+
+
+#### 28. top Command:
+> The top command will display all running processes and a dynamic real-time view of the current system.
+>Syntax: top
+
+
+#### 29. history Command:
+> The history command will list upto 500 commands you have executed.
+> Syntax: history
+>
+
+
+#### 30. man Command:
+> The man command provides a user manual of any command or utility you run in the terminal.
+> Syntax: man [command name]
+
+
+#### 31. echo Command:
+> The echo command display line of text or string using the standard output.
+> Syntax: echo [option] [string]
+
+
