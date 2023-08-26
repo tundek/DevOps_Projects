@@ -292,4 +292,80 @@ chown linuxuser2 filename.txt
 > The echo command display line of text or string using the standard output.
 > Syntax: echo [option] [string]
 
+#### 32. zip and unzip Commands:
+> The zip command is used to compress files into a ZIP file/directory.
+> Syntax: zip [option] zipfile file1 file2
+>
+> Example -> You have a file named note.txt and you want to compress into archive.zip in the same directory,
+
+```
+   zip archive.zip note.txt
+```
+
+For the unzip command, we use this to un archive files
+
+> Syntax: unzip [option] filename.zip
+
+
+#### 33. hostname Command:
+> The hostname command is used to know the system's hostname.
+> Syntax: hostname [option]
+
+
+
+#### 34. useradd, userdel Commands:
+> Since Linux is a multi-user operating system, more than one user can use the system at the sametime.
+> Command useradd is used to create a new user account while the 
+> Syntax: useradd [option] username
+
+> To set the password, we use the
+
+> passwd password_combination
+
+> Usecase:
+
+> useradd dev
+
+> passwd 12345
+>
+
+#### 35. apt-get Command:
+> The apt-get (Advanced Package Tool) helps you retrieve information and bundle fro authenticated sources to manage, update, remove and install softwares packages and their dependencies.
+
+>Syntax: apt-get [options] (command)
+
+
+#### 36. nano, vi, jed Command:
+> The nano and vi commands comes pre-installed with the operating system. They are used to edit and manage files via text editors. jed does not come pre-installed with Linux (Ubuntu)
+
+> Syntax: nano filename
+
+> Syntax: vi filename
+
+
+#### 37. alias, unalias Commands:
+> The alias command allows you to create shortcut with the same functionality as a command, filename or text
+
+> Syntax: alias Name=String
+
+> alias k='kill'
+
+on the other hand unalias deletes the alias
+> Syntax: unalias [alias_name]
+
+
+#### 38. su Command:
+> The su command allows you to run commands as a different user with administrative previleges
+
+
+>su [options] [username [argument]]
+
+
+#### 39. htop Command:
+> The htop command monitors system resources and server processes in real time.
+ 
+> htop [options]
+
+#### 40. ps Command:
+> The ps command produces a snapshot of all the running processes in your system.
 
