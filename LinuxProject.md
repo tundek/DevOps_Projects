@@ -372,12 +372,20 @@ For the unzip command, we use this to un archive files
 > useradd dev
 
 > passwd 12345
->
+> 
+<img width="895" alt="Screenshot 2023-09-01 at 22 38 30" src="https://github.com/tundek/DevOps_Projects/assets/15998669/109c95fa-d2e8-41f6-b114-f2a585a92222">
+
+
 
 #### 35. apt-get Command:
 > The apt-get (Advanced Package Tool) helps you retrieve information and bundle fro authenticated sources to manage, update, remove and install softwares packages and their dependencies.
 
 >Syntax: apt-get [options] (command)
+<img width="1270" alt="Screenshot 2023-09-01 at 22 40 53" src="https://github.com/tundek/DevOps_Projects/assets/15998669/943582b6-9984-4f25-8c0f-a0fa2a4bad5d">
+<img width="1419" alt="Screenshot 2023-09-01 at 22 40 45" src="https://github.com/tundek/DevOps_Projects/assets/15998669/89f0b8fd-dd61-4966-8126-d0c81a8d0ac9">
+<img width="986" alt="Screenshot 2023-09-01 at 22 40 00" src="https://github.com/tundek/DevOps_Projects/assets/15998669/b39cdeec-f216-4e53-84f8-68bf55996516">
+
+
 
 
 #### 36. nano, vi, jed Command:
@@ -385,7 +393,11 @@ For the unzip command, we use this to un archive files
 
 > Syntax: nano filename
 
-> Syntax: vi filename
+> Syntax: vim filename
+<img width="695" alt="Screenshot 2023-09-01 at 22 52 01" src="https://github.com/tundek/DevOps_Projects/assets/15998669/86bfac5b-b782-4765-a861-94fbc880ca14">
+<img width="1402" alt="Screenshot 2023-09-01 at 22 50 51" src="https://github.com/tundek/DevOps_Projects/assets/15998669/308ec6cf-88fc-454d-9dee-e6e34799227d">
+
+
 
 
 #### 37. alias, unalias Commands:
@@ -397,20 +409,30 @@ For the unzip command, we use this to un archive files
 
 on the other hand unalias deletes the alias
 > Syntax: unalias [alias_name]
+<img width="605" alt="Screenshot 2023-09-01 at 22 57 16" src="https://github.com/tundek/DevOps_Projects/assets/15998669/2c801872-ea1b-4cf5-b878-5abcfe9ebee2">
+<img width="731" alt="Screenshot 2023-09-01 at 22 54 58" src="https://github.com/tundek/DevOps_Projects/assets/15998669/65defccd-1336-4b03-b826-52ce3c3813e7">
+
 
 
 #### 38. su Command:
-> The su command allows you to run commands as a different user with administrative previleges
-
-
+> The su command allows you to run commands as a different user with administrative privileges
 >su [options] [username [argument]]
+<img width="733" alt="Screenshot 2023-09-01 at 23 00 17" src="https://github.com/tundek/DevOps_Projects/assets/15998669/51c36bf1-6ae7-4af3-b746-fe64876c0531">
 
 
 #### 39. htop Command:
 > The htop command monitors system resources and server processes in real time.
  
 > htop [options]
+<img width="973" alt="Screenshot 2023-09-01 at 23 04 53" src="https://github.com/tundek/DevOps_Projects/assets/15998669/a5606206-8b54-4ffe-a116-502a34c859da">
+
+
 
 #### 40. ps Command:
 > The ps command produces a snapshot of all the running processes in your system.
+> htop [options]
+> 
+ <img width="459" alt="Screenshot 2023-09-01 at 23 05 29" src="https://github.com/tundek/DevOps_Projects/assets/15998669/51a617a3-c6dd-4a16-84f6-9b28b692fe53">
+
+> 
 
