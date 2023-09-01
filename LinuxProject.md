@@ -157,11 +157,16 @@ Example touch new_file
 
 Example locate -i new_file
 
+<img width="723" alt="Screenshot 2023-09-01 at 18 04 41" src="https://github.com/tundek/DevOps_Projects/assets/15998669/c5ea0c19-ba54-474f-a3b9-e53ccd77c63b">
+
 
 #### 13. find Command:
 >This command is similar to the locate cmd  to find files
 
 Syntax: find [option] [path] [expression]
+
+<img width="794" alt="Screenshot 2023-09-01 at 18 00 49" src="https://github.com/tundek/DevOps_Projects/assets/15998669/895e60a5-c159-4950-8b62-fea273b50eb5">
+
 
 
 #### 14. grep Command:
