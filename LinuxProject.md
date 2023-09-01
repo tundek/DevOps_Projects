@@ -204,10 +204,16 @@ Use the -h flag for human readable format
 > The head command is used to display the first 10 lines of a text file/document
 > Syntax: head [file_name]
 
+<img width="651" alt="Screenshot 2023-09-01 at 18 15 16" src="https://github.com/tundek/DevOps_Projects/assets/15998669/91a760f5-1ed0-4dae-8ca7-c7ba6bd49784">
+
+
 
 #### 18. tail Command:
 > The tail command is used to display the last 10 lines of a text file/document
 > Syntax: tail [file_name]
+
+<img width="676" alt="Screenshot 2023-09-01 at 18 15 33" src="https://github.com/tundek/DevOps_Projects/assets/15998669/c2a3b97c-a342-4ca2-8c0a-81d1010b9541">
+
 
 
 #### 19. diff Command:
