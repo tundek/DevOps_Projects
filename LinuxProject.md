@@ -190,7 +190,7 @@ Use the -h flag for human readable format
 <img width="1280" alt="Screenshot 2023-08-25 at 07 54 13" src="https://github.com/tundek/DevOps_Projects/assets/15998669/7ad7920a-1cc1-48c6-a4e3-16c286e68c66">
 
 
-#### 16. df Command:
+#### 16. du Command:
 > We can use the df command to check how much space a file or directory takes up
 
 > Syntax: du [file_name]/[directory_name]
@@ -228,6 +228,9 @@ Use the -h flag for human readable format
 > The tar command archives multiple files into TAR file.
 > Syntax: tar [options] [archive_file] [file or directory to be achived]
 
+#### `Output`
+<img width="794" alt="Screenshot 2023-09-01 at 21 12 21" src="https://github.com/tundek/DevOps_Projects/assets/15998669/0026a975-401d-46ce-b132-78b7a94952b7">
+
 
 # File Permissions and Ownership
 
@@ -255,53 +258,80 @@ Three user classes exists in Linux
 chown linuxuser2 filename.txt
 ```
 
+#### `Output`
+<img width="798" alt="Screenshot 2023-09-01 at 21 27 42" src="https://github.com/tundek/DevOps_Projects/assets/15998669/2f02b69d-b14f-4351-afb8-ac0708cc3bd5">
+<img width="823" alt="Screenshot 2023-09-01 at 21 27 26" src="https://github.com/tundek/DevOps_Projects/assets/15998669/678ed36d-af63-49c2-b339-3d56048550b3">
+
+
+
 #### 23. Jobs Command:
 > A job is process started by the shell. The job command will display all the running processes and their status
 
 > Syntaxt jobs [options] jobID
+<img width="769" alt="Screenshot 2023-09-01 at 21 45 37" src="https://github.com/tundek/DevOps_Projects/assets/15998669/ea554ede-f90a-4278-8df8-555c083c792d">
+
+
 
 #### 24. kill Command:
 > The kill command is used to terminate an unresponsive process manually.
 > Syntax kill [signal_option] pid
 >
 > Where PID is the proces ID used to reference a particular process
+<img width="642" alt="Screenshot 2023-09-01 at 21 43 56" src="https://github.com/tundek/DevOps_Projects/assets/15998669/533ab271-0ff2-42c0-9a48-4be7c195a250">
+
 
 #### 25. ping Command:
-> The ping command is used to trouble and see if a server is reachable or not
+> The ping command is used to troubleshoot and see if a server is reachable or not
 >
 > Syntaxt: ping [option] [hostname_or_IP_address]
+
+<img width="851" alt="Screenshot 2023-09-01 at 21 29 53" src="https://github.com/tundek/DevOps_Projects/assets/15998669/ec3c543a-801a-445b-aec8-fc21105c5aa0">
+
 
 
 #### 26. wget Command:
 > The wget command lets you download files from the internet.
 
 > Syntax: wget [option] [url]
+>
+<img width="1406" alt="Screenshot 2023-09-01 at 21 48 23" src="https://github.com/tundek/DevOps_Projects/assets/15998669/6d98c789-a069-4fd0-83f8-58591f160f37">
+
 
 #### 27. uname Command:
 > The uname command tells you details of your Linux system and harware
 >
 > Syntax: uname [option] (uname -a)
+<img width="557" alt="Screenshot 2023-09-01 at 21 49 51" src="https://github.com/tundek/DevOps_Projects/assets/15998669/6eca695a-a8e7-4f13-9b5b-3712f41fbaf7">
 
 
 #### 28. top Command:
 > The top command will display all running processes and a dynamic real-time view of the current system.
 >Syntax: top
+<img width="1407" alt="Screenshot 2023-09-01 at 21 48 57" src="https://github.com/tundek/DevOps_Projects/assets/15998669/f22f6fdd-fc00-4664-a336-30522570b7cd">
+
 
 
 #### 29. history Command:
 > The history command will list upto 500 commands you have executed.
 > Syntax: history
->
+<img width="1025" alt="Screenshot 2023-09-01 at 21 50 48" src="https://github.com/tundek/DevOps_Projects/assets/15998669/4aca3418-fb7b-4dcc-a550-1e6e6f7f0738">
+
+
 
 
 #### 30. man Command:
 > The man command provides a user manual of any command or utility you run in the terminal.
 > Syntax: man [command name]
+Example: man ls
+<img width="1417" alt="Screenshot 2023-09-01 at 21 51 40" src="https://github.com/tundek/DevOps_Projects/assets/15998669/7392c276-0a76-4ae2-9f73-c068758c4416">
+
 
 
 #### 31. echo Command:
 > The echo command display line of text or string using the standard output.
 > Syntax: echo [option] [string]
+<img width="802" alt="Screenshot 2023-09-01 at 21 53 55" src="https://github.com/tundek/DevOps_Projects/assets/15998669/ed32cada-bdcf-43d8-bee7-26281b4faadc">
+
 
 #### 32. zip and unzip Commands:
 > The zip command is used to compress files into a ZIP file/directory.
@@ -316,11 +346,15 @@ chown linuxuser2 filename.txt
 For the unzip command, we use this to un archive files
 
 > Syntax: unzip [option] filename.zip
+<img width="941" alt="Screenshot 2023-09-01 at 21 57 09" src="https://github.com/tundek/DevOps_Projects/assets/15998669/52298007-c04c-4f25-98a7-ba3955d42de1">
+
+
 
 
 #### 33. hostname Command:
 > The hostname command is used to know the system's hostname.
 > Syntax: hostname [option]
+<img width="616" alt="Screenshot 2023-09-01 at 21 57 41" src="https://github.com/tundek/DevOps_Projects/assets/15998669/a8597e19-8e55-4d6f-bee9-76afe9d64907">
 
 
 
